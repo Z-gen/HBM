@@ -1,7 +1,27 @@
-.admin_history_page {
+/*VAR COLORS */
+/*END VAR COLORS */
+/*EXTENDS */
+.inlineMid, .contactImg:before {
+  vertical-align: middle;
+  display: inline-block; }
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contactImg:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 3px;
+  background-image: url(../img/spriteTop.png);
+  background-position: 0 0; }
+
+/*EXTENDS */
+.admin_page {
   padding-top: 0;
   position: relative; }
-  .admin_history_page .admin_navigation_bg {
+  .admin_page .admin_navigation_bg {
     position: absolute;
     padding-top: 30px;
     background-color: #eef3f7;
@@ -9,12 +29,12 @@
     height: 130px;
     width: 100vw;
     top: 0; }
-  .admin_history_page .admin_navigation {
+  .admin_page .admin_navigation {
     position: relative; }
-    .admin_history_page .admin_navigation .row .tab.active, .admin_history_page .admin_navigation .row .tab:hover {
+    .admin_page .admin_navigation .row .tab.active, .admin_page .admin_navigation .row .tab:hover {
       border-bottom: 9px solid #eef3f7;
       box-shadow: 0px 5px 16px -5px rgba(0, 0, 0, 0.4); }
-    .admin_history_page .admin_navigation .row .tab {
+    .admin_page .admin_navigation .row .tab {
       display: inline-block;
       width: 14%;
       text-align: center;
@@ -24,5 +44,101 @@
       margin-top: 30px;
       transition: all 0.2s ease;
       cursor: pointer; }
-      .admin_history_page .admin_navigation .row .tab p {
+      .admin_page .admin_navigation .row .tab p {
         text-transform: uppercase; }
+
+#page_title .bg_wrap .container .row .col-md-10 {
+  background: none;
+  color: #3a4a59;
+  height: 110px;
+  padding-left: 51px; }
+  #page_title .bg_wrap .container .row .col-md-10:before {
+    display: none; }
+  #page_title .bg_wrap .container .row .col-md-10 h1 {
+    font-family: "MyriadProRegular";
+    margin-top: 20px; }
+  #page_title .bg_wrap .container .row .col-md-10 p {
+    color: #616161;
+    margin-top: -5px;
+    margin-left: 1px; }
+
+.material_block, .inline_material_block {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: #ecf1f5; }
+
+.inline_material_block {
+  display: inline-block; }
+
+.inline_wrap {
+  display: inline-block; }
+
+.history_page {
+  text-transform: uppercase; }
+  .history_page .row.withdraw, .history_page .row.deposit {
+    margin-bottom: 2px; }
+  .history_page .inline_material_block {
+    margin: 1px;
+    vertical-align: top; }
+    .history_page .inline_material_block p {
+      margin: 0; }
+  .history_page img {
+    vertical-align: initial; }
+  .history_page .action {
+    width: 24.5%;
+    padding: 15px 20px; }
+    .history_page .action .caption {
+      font-size: 16px;
+      font-family: "MyriadProBold"; }
+    .history_page .action .batch {
+      color: #959595;
+      font-size: 12px;
+      margin-top: -5px; }
+    .history_page .action img {
+      margin-right: 15px; }
+  .history_page .deposit .action {
+    border-left: 10px solid #36953a; }
+    .history_page .deposit .action .caption {
+      color: #36953a; }
+  .history_page .deposit .amount p:nth-of-type(2) {
+    color: #36953a; }
+  .history_page .withdraw .action {
+    border-left: 10px solid #d0322a; }
+    .history_page .withdraw .action .caption {
+      color: #d0322a; }
+  .history_page .withdraw .amount p:nth-of-type(2) {
+    color: #d0322a; }
+  .history_page .date, .history_page .number {
+    padding-bottom: 19px; }
+    .history_page .date .caption, .history_page .number .caption {
+      color: #a1a1a1;
+      font-size: 10px;
+      margin-bottom: -7px; }
+    .history_page .date p:nth-of-type(2), .history_page .number p:nth-of-type(2) {
+      color: #678098;
+      font-size: 14px;
+      margin-bottom: -7px; }
+    .history_page .date img, .history_page .number img {
+      vertical-align: sub;
+      margin-right: 13px; }
+  .history_page .date {
+    width: 24.8%; }
+  .history_page .payment_type {
+    padding: 23px 30px;
+    width: 16.35%; }
+    .history_page .payment_type img {
+      vertical-align: bottom; }
+  .history_page .number {
+    width: 21%; }
+  .history_page .amount {
+    width: 11.3%;
+    padding-bottom: 15px;
+    padding-top: 20px; }
+    .history_page .amount .caption {
+      color: #a1a1a1;
+      font-size: 10px; }
+    .history_page .amount p:nth-of-type(2) {
+      font-weight: bold;
+      margin-top: -9px;
+      font-size: 18px; }
