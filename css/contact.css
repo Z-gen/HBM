@@ -1,0 +1,212 @@
+/*CONTACT PAGE */
+/*VAR COLORS */
+/*END VAR COLORS */
+/*EXTENDS */
+.inlineMid, .contactImg:before, .contact_partners .partners_world .list_address .item_address .img_address, .contact_partners .partners_world .list_address .item_address span {
+  vertical-align: middle;
+  display: inline-block; }
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contactImg:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 3px;
+  background-image: url(../img/spriteTop.png);
+  background-position: 0 0; }
+
+/*EXTENDS */
+::-webkit-input-placeholder {
+  color: #3a4a59; }
+::-moz-placeholder {
+  color: #3a4a59; }
+:-ms-input-placeholder {
+  color: #3a4a59; }
+::placeholder {
+  color: #3a4a59; }
+
+.contact_page {
+  padding: 0 0 60px; }
+
+.contact_map {
+  background-image: url(../img/map.png);
+  background-position: center;
+  background-size: cover;
+  height: 270px;
+  width: 100%; }
+
+.contact_form {
+  position: relative; }
+  .contact_form .container {
+    z-index: 1;
+    position: relative; }
+  .contact_form .col-md-6:first-child {
+    padding-right: 5px; }
+  .contact_form .col-md-6:last-child {
+    padding-left: 5px; }
+  .contact_form .input_form_wrap {
+    position: relative;
+    text-transform: uppercase; }
+    .contact_form .input_form_wrap input {
+      background-color: #f5f8fb;
+      border: none;
+      outline: none;
+      width: 100%;
+      color: #3a4a59;
+      padding: 18px 20px;
+      font-size: 16px;
+      border-radius: 3px;
+      line-height: 1.2;
+      box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.35); }
+    .contact_form .input_form_wrap textarea {
+      resize: none;
+      background-color: #f5f8fb;
+      margin-top: 10px;
+      border: none;
+      outline: none;
+      width: 100%;
+      color: #3a4a59;
+      max-height: 110px;
+      display: block;
+      padding: 18px 90px 18px 20px;
+      font-size: 13px;
+      border-radius: 3px;
+      line-height: 1.2;
+      box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.35); }
+    .contact_form .input_form_wrap span {
+      position: absolute;
+      right: 20px;
+      font-size: 12px;
+      color: #3a4a59;
+      top: 18px; }
+  .contact_form .btn_form {
+    background-color: #36953a;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    font-size: 16px;
+    padding: 25px 110px 25px 20px;
+    position: relative; }
+    .contact_form .btn_form:after {
+      background-image: url(../img/ellipsis.png);
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 15px;
+      content: "";
+      position: absolute;
+      right: 25px;
+      top: 25px;
+      background-position: center;
+      background-size: 100%;
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg); }
+  .contact_form .left_green_block {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    bottom: 0;
+    background-color: #36953a;
+    width: 17%;
+    height: calc(100% + 20px); }
+  .contact_form .right_green_block {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    bottom: 0;
+    background-color: #36953a;
+    width: 17%;
+    height: calc(100% + 20px); }
+
+.contact_partners .map_contact img {
+  width: 100%;
+  display: block;
+  margin-left: -30px;
+  padding-top: 40px; }
+.contact_partners .partners_world .title h1 {
+  color: #36953a;
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-left: 50px;
+  margin-top: 40px;
+  position: relative;
+  text-transform: uppercase; }
+  .contact_partners .partners_world .title h1:before {
+    content: "";
+    background-image: url(../img/titleGreenBefore.png);
+    display: inline-block;
+    vertical-align: middle;
+    width: 41px;
+    height: 3px;
+    left: 0px;
+    top: 23px;
+    position: absolute; }
+.contact_partners .partners_world .list_address {
+  margin-left: -15px;
+  margin-right: 15px; }
+  .contact_partners .partners_world .list_address .item_address {
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative; }
+    .contact_partners .partners_world .list_address .item_address:hover {
+      z-index: 100; }
+      .contact_partners .partners_world .list_address .item_address:hover .hidden_address {
+        display: block; }
+      .contact_partners .partners_world .list_address .item_address:hover .img_address {
+        background-color: #3a4a59; }
+    .contact_partners .partners_world .list_address .item_address .main_address {
+      z-index: 10;
+      position: relative; }
+    .contact_partners .partners_world .list_address .item_address .img_address {
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: #d0322a;
+      margin-right: 10px;
+      background-image: url(../img/address.png);
+      background-repeat: no-repeat;
+      background-position: center; }
+    .contact_partners .partners_world .list_address .item_address span {
+      font-size: 14px;
+      color: #5e5e5e; }
+    .contact_partners .partners_world .list_address .item_address .hidden_address {
+      display: none;
+      color: #9c9c9c;
+      padding-top: 70px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 5px;
+      font-size: 12px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 5px;
+      right: 0;
+      background-color: #eef3f7;
+      border-bottom: 4px solid #3a4a59;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15); }
+      .contact_partners .partners_world .list_address .item_address .hidden_address li {
+        margin-bottom: 10px; }
+      .contact_partners .partners_world .list_address .item_address .hidden_address .img_sprite {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        background-image: url(../img/spriteAddress.png);
+        background-position: 0 center; }
+      .contact_partners .partners_world .list_address .item_address .hidden_address .img_sprite_first {
+        background-position: center 1px; }
+      .contact_partners .partners_world .list_address .item_address .hidden_address .img_sprite_second {
+        background-position: center; }
+      .contact_partners .partners_world .list_address .item_address .hidden_address .img_sprite_third {
+        background-position: center 100%; }
+
+/*END CONTACT PAGE */

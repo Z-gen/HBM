@@ -1,7 +1,7 @@
 /*VAR COLORS */
 /*END VAR COLORS */
 /*EXTENDS */
-.inlineMid, .contactImg:before, .header_contact li:first-child .header_contact_0:before, .header_contact li:nth-child(2) .header_contact_0:before, .header_contact li:nth-child(3) .header_contact_0:before, .header_contact li:last-child .header_contact_0:before, .header_contact li .skype_contact span:before, .header_contact li .phone_contact span:before, .header_contact li, .header_contact li .header_contact_0:after, .header_lang .img_lang, .header_lang .btn_lang, .header_lang .btn_lang:after, #header_menu ul li:before, #header_menu ul li a, .footer_page .footer_payment .item_pay, .footer_page .footer_payment .btn_pay {
+.inlineMid, .contactImg:before, .header_contact li:first-child .header_contact_0:before, .header_contact li:nth-child(2) .header_contact_0:before, .header_contact li:nth-child(3) .header_contact_0:before, .header_contact li:last-child .header_contact_0:before, .header_contact li .skype_contact span:before, .header_contact li .phone_contact span:before, .header_contact li, .header_contact li .header_contact_0:after, .header_lang .img_lang, .header_lang .btn_lang, .header_lang .btn_lang:after, #header_menu ul li:before, #header_menu ul li a, .footer_page .footer_payment .item_pay, .footer_page .footer_payment .btn_pay, .investors_list .investors_list_item {
   vertical-align: middle;
   display: inline-block; }
 
@@ -105,7 +105,8 @@ header#header {
       width: 100%;
       opacity: 0;
       z-index: -100;
-      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+              transition: all 0.2s ease;
       background-color: #212931;
       padding: 5px 10px; }
       .header_contact li .header_contact_1 .btn_wrap {
@@ -197,8 +198,7 @@ header#header {
 #header_menu {
   background-color: #3a4a59; }
   #header_menu ul li {
-    display: inline-block;
-    padding: 30px 15px; }
+    display: inline-block; }
     #header_menu ul li:hover {
       background-color: #36953a; }
     #header_menu ul li:before {
@@ -206,10 +206,15 @@ header#header {
       background-image: url(../img/ellipsis.png);
       width: 14px;
       height: 14px;
-      transform: rotate(-90deg); }
+      position: relative;
+      left: 14px;
+      -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg); }
     #header_menu ul li a {
       color: #fff;
       text-decoration: none;
+      padding: 30px 15px;
       text-transform: uppercase; }
 
 /*END HEADER */
@@ -288,9 +293,25 @@ header#header {
 /*END FOOTER */
 #page_title .bg_wrap {
   position: relative; }
-  #page_title .bg_wrap img {
+  #page_title .bg_wrap .img_bg {
+    background-size: cover;
     position: absolute;
-    filter: brightness(0.8); }
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; }
+  #page_title .bg_wrap .img_bg_contact {
+    background-image: url(../img/bg_titles/contact.png); }
+  #page_title .bg_wrap .img_bg_investors {
+    background-image: url(../img/bg_titles/investors.png); }
+  #page_title .bg_wrap .img_bg_aboutus {
+    background-image: url(../img/bg_titles/about.png); }
+  #page_title .bg_wrap .img_bg_faq {
+    background-image: url(../img/bg_titles/faq.png); }
+  #page_title .bg_wrap .img_bg_news {
+    background-image: url(../img/bg_titles/news.png); }
+  #page_title .bg_wrap .img_bg_partners {
+    background-image: url(../img/bg_titles/partners.png); }
   #page_title .bg_wrap .container .row .col-md-10 {
     background: url(../img/pageTitlePad.png) no-repeat;
     height: 157px;
@@ -332,4 +353,98 @@ header#header {
   padding-top: 30px;
   padding-bottom: 60px; }
 
-/*# sourceMappingURL=main.css.map */
+/*HOME */
+.home_top {
+  line-height: 1.2;
+  padding-bottom: 45px;
+  box-shadow: 0px 6px 10px rgba(171, 171, 171, 0.18); }
+  .home_top h2 {
+    color: #5f5f5e;
+    font-size: 25px;
+    max-width: 600px; }
+  .home_top .btn_home a {
+    background-color: #58748b;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 35px;
+    margin-top: 35px;
+    box-shadow: 0 5px 31px rgba(0, 0, 0, 0.32); }
+
+.title_section {
+  padding-left: 70px;
+  line-height: 1.2;
+  padding-bottom: 30px; }
+  .title_section h2 {
+    color: #3a4a59;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0; }
+    .title_section h2:after {
+      content: "";
+      background-image: url(../img/titleGreenBefore.png);
+      display: inline-block;
+      vertical-align: middle;
+      width: 41px;
+      height: 3px;
+      left: -50px;
+      top: 23px;
+      position: absolute; }
+  .title_section p {
+    font-size: 12px;
+    margin-top: 0; }
+
+body .partner_level_item_main .level_item_title .title_level.home_level {
+  color: #3a4a59;
+  margin-left: 0; }
+
+.investors_list .investors_list_item {
+  width: 20%;
+  margin-right: -4px;
+  padding: 15px;
+  cursor: pointer;
+  text-transform: uppercase; }
+  .investors_list .investors_list_item:hover {
+    background-color: #eef3f7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.22); }
+  .investors_list .investors_list_item .icon_inv {
+    width: 35px;
+    height: 45px;
+    background-image: url(../img/sprite_level.png); }
+  .investors_list .investors_list_item .rank_inv {
+    font-size: 18px;
+    color: #36953a; }
+  .investors_list .investors_list_item .desct_inv {
+    color: #858585;
+    font-size: 12px;
+    position: relative;
+    margin-top: 10px; }
+    .investors_list .investors_list_item .desct_inv:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -4px;
+      width: 70px;
+      height: 1px;
+      background-color: #858585; }
+  .investors_list .investors_list_item .user_rank_ic {
+    background-position: -15px -15px; }
+  .investors_list .investors_list_item .inv_rank_ic {
+    background-position: -70px -15px; }
+  .investors_list .investors_list_item .lider_rank_ic {
+    background-position: -125px -15px; }
+  .investors_list .investors_list_item .toplid_rank_ic {
+    background-position: -180px -15px; }
+  .investors_list .investors_list_item .primer_rank_ic {
+    background-position: -235px -15px; }
+
+.home_news .main_news_item {
+  margin-top: 0;
+  margin-bottom: 0; }
+  .home_news .main_news_item .title_container {
+    background-color: #d0322a; }
+
+/*HOME */

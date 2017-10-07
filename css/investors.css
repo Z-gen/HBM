@@ -1,0 +1,355 @@
+/*INVESTORS PAGE */
+/*VAR COLORS */
+/*END VAR COLORS */
+/*EXTENDS */
+.inlineMid, .contactImg:before, .investors_top_block .investors_top_item .label_invest, .investors_top_block .investors_top_item .value_invest, .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top .bold_block, .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top span, .investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top .bold_block, .investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top span, .invsetors_chart .investors_value .investors_value_percentage .item_percentage .icon_per, .invsetors_chart .investors_value .investors_value_percentage .item_percentage span, .investors_data .invset_data_item {
+  vertical-align: middle;
+  display: inline-block; }
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contactImg:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 3px;
+  background-image: url(../img/spriteTop.png);
+  background-position: 0 0; }
+
+/*EXTENDS */
+.investors_top_block .container {
+  box-shadow: 0px 2px 5px #7d7d7d;
+  background: -webkit-linear-gradient(bottom, #eef3f7, transparent);
+  background: linear-gradient(to top, #eef3f7, transparent); }
+.investors_top_block .col-md-6 {
+  padding-right: 0; }
+  .investors_top_block .col-md-6:nth-child(2n) {
+    padding-right: 15px;
+    padding-left: 0; }
+.investors_top_block .investors_top_item {
+  border-right: 1px solid #dae0e4;
+  border-bottom: 1px solid #dae0e4;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 15px 30px; }
+  .investors_top_block .investors_top_item:nth-child(2n) {
+    border-right: none; }
+  .investors_top_block .investors_top_item .value_invest {
+    float: right;
+    font-family: "MyriadProBold";
+    color: #3a4a59; }
+  .investors_top_block .investors_top_item .red_color {
+    color: #d0322a; }
+  .investors_top_block .investors_top_item .green_color {
+    color: #36953a; }
+.investors_top_block .investors_top_under {
+  padding: 25px 15px;
+  font-size: 12px; }
+  .investors_top_block .investors_top_under p {
+    margin: 0; }
+
+.investors_statistics .investors_stats_btn {
+  background-color: #eef3f7; }
+  .investors_statistics .investors_stats_btn .investors_bussinesDay {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-right: -4px; }
+    .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top {
+      text-transform: uppercase; }
+      .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top .bold_block {
+        font-size: 16px;
+        color: #fff;
+        background: -webkit-linear-gradient(right, #36953a, #359239);
+        background: linear-gradient(to left, #36953a, #359239);
+        padding: 15px 25px;
+        position: relative; }
+        .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top .bold_block:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: -25px;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 25px 56px 25px;
+          border-color: transparent transparent #36953a transparent; }
+      .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top span {
+        font-size: 12px;
+        margin-left: 35px; }
+    .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_days ul li {
+      display: inline-block;
+      background-color: #36953a;
+      color: #fff;
+      margin-right: -4px;
+      font-size: 12px;
+      cursor: pointer;
+      width: calc(20% + 1px);
+      padding: 20px 10px;
+      position: relative;
+      border-right: 2px solid #308634; }
+      .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_days ul li:last-child {
+        border-right: none; }
+      .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_days ul li:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background-color: rgba(97, 97, 97, 0.2); }
+  .investors_statistics .investors_stats_btn .investors_weekendDay {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: -4px; }
+    .investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top .bold_block {
+      font-size: 16px;
+      color: #fff;
+      background-color: #d0322a;
+      padding: 15px 25px;
+      position: relative; }
+      .investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top .bold_block:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -25px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 25px 56px 25px;
+        border-color: transparent transparent #d0322a transparent; }
+    .investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top span {
+      font-size: 12px;
+      margin-left: 35px; }
+    .investors_statistics .investors_stats_btn .investors_weekendDay .investors_days ul li {
+      display: inline-block;
+      background-color: #d0322a;
+      font-size: 12px;
+      color: #fff;
+      cursor: pointer;
+      margin-right: -4px;
+      position: relative;
+      width: calc(50% + 1px);
+      padding: 20px 10px;
+      border-right: 2px solid #bb2d26; }
+      .investors_statistics .investors_stats_btn .investors_weekendDay .investors_days ul li:last-child {
+        border-right: none; }
+      .investors_statistics .investors_stats_btn .investors_weekendDay .investors_days ul li:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background-color: rgba(97, 97, 97, 0.2); }
+
+.invsetors_chart {
+  background-color: #202931;
+  background-image: url(../img/bg_range.png);
+  background-size: 1920px;
+  background-repeat: no-repeat;
+  padding-top: 45px;
+  background-position: top center; }
+  .invsetors_chart .pl-null {
+    padding-left: 0;
+    margin-left: -45px; }
+  .invsetors_chart .wrap_chart {
+    min-height: 300px; }
+  .invsetors_chart .investors_value .investors_value_percentage {
+    position: relative;
+    top: -20px; }
+    .invsetors_chart .investors_value .investors_value_percentage .item_percentage {
+      color: #fff;
+      line-height: 1; }
+      .invsetors_chart .investors_value .investors_value_percentage .item_percentage .icon_per {
+        width: 20px;
+        height: 20px;
+        background-image: url(../img/calc_ellipsis.png);
+        margin-right: 15px;
+        margin-left: 10px; }
+      .invsetors_chart .investors_value .investors_value_percentage .item_percentage .green_img {
+        background-position: center 22px; }
+      .invsetors_chart .investors_value .investors_value_percentage .item_percentage .red_img {
+        background-position: center 0; }
+      .invsetors_chart .investors_value .investors_value_percentage .item_percentage span {
+        font-size: 35px; }
+      .invsetors_chart .investors_value .investors_value_percentage .item_percentage .title_perc {
+        text-transform: uppercase;
+        margin-top: 30px; }
+  .invsetors_chart .investors_value .investors_calculator {
+    padding-top: 30px; }
+    .invsetors_chart .investors_value .investors_calculator .title_calc {
+      color: #e0e9f0;
+      font-size: 18px;
+      text-transform: uppercase; }
+      .invsetors_chart .investors_value .investors_calculator .title_calc img {
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: -4px;
+        margin-right: 10px; }
+    .invsetors_chart .investors_value .investors_calculator .range_calc {
+      margin-top: 20px; }
+      .invsetors_chart .investors_value .investors_calculator .range_calc .rangeslider--horizontal {
+        height: 15px; }
+      .invsetors_chart .investors_value .investors_calculator .range_calc .rangeslider {
+        background: -webkit-linear-gradient(bottom, #202830, #1e262d);
+        background: linear-gradient(to top, #202830, #1e262d);
+        box-shadow: none; }
+      .invsetors_chart .investors_value .investors_calculator .range_calc .rangeslider__fill {
+        background: -webkit-linear-gradient(left, #36953a, #d0322a);
+        background: linear-gradient(to right, #36953a, #d0322a); }
+      .invsetors_chart .investors_value .investors_calculator .range_calc .rangeslider__handle {
+        background-image: url(../img/range_scroll.png);
+        border: none;
+        background: transparent;
+        top: -8px;
+        height: 30px;
+        width: 30px;
+        box-shadow: none;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .invsetors_chart .investors_value .investors_calculator .range_calc .rangeslider__handle:after {
+          background-image: url(../img/range_scroll.png);
+          width: 100%;
+          height: 70%;
+          background-position: center; }
+    .invsetors_chart .investors_value .investors_calculator .btn_range {
+      position: relative;
+      margin-top: 25px; }
+      .invsetors_chart .investors_value .investors_calculator .btn_range output {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        color: #fff;
+        font-size: 16px; }
+        .invsetors_chart .investors_value .investors_calculator .btn_range output:after {
+          position: relative;
+          content: "USD";
+          padding-left: 5px; }
+      .invsetors_chart .investors_value .investors_calculator .btn_range button {
+        background-color: #3a4a59;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+        width: 100%;
+        padding-top: 5px;
+        text-align: right;
+        padding-right: 15px;
+        text-transform: uppercase;
+        height: 50px;
+        border-bottom: 4px solid #344250; }
+
+.chart_calc_wrap {
+  padding-bottom: 35px; }
+
+.investors_data {
+  position: relative;
+  top: 10px; }
+  .investors_data .title_data {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 35px;
+    line-height: 1;
+    text-transform: uppercase; }
+    .investors_data .title_data span {
+      display: block;
+      font-size: 14px; }
+  .investors_data .invset_data_item {
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 6%;
+    font-size: 19px; }
+    .investors_data .invset_data_item:last-child {
+      padding-right: 0; }
+    .investors_data .invset_data_item span {
+      display: block;
+      font-size: 13px; }
+    .investors_data .invset_data_item .data_value {
+      margin-top: 10px; }
+    .investors_data .invset_data_item .icon_data {
+      width: 49px;
+      height: 49px;
+      display: inline-block;
+      vertical-align: top;
+      background-color: #36953a;
+      border-radius: 3px;
+      margin-right: 12px;
+      background-image: url(../img/sprite_data.png); }
+    .investors_data .invset_data_item .fir_ic {
+      background-position: 0 -1px; }
+    .investors_data .invset_data_item .sec_ic {
+      background-position: -40px -1px; }
+    .investors_data .invset_data_item .thi_ic {
+      background-position: -80px -1px; }
+    .investors_data .invset_data_item .fo_ic {
+      background-position: -120px -1px; }
+
+.investors_steps .item_step {
+  margin-bottom: 5px; }
+  .investors_steps .item_step .icon_step {
+    text-align: center;
+    width: 175px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-image: url(../img/ugol.png);
+    background-position: center; }
+    .investors_steps .item_step .icon_step .icon_mini {
+      width: 50px;
+      height: 50px;
+      margin: 10px auto;
+      background-image: url(../img/sprite_step.png);
+      background-position: 0 0; }
+    .investors_steps .item_step .icon_step .step_1_icon {
+      background-position: -5px -18px; }
+    .investors_steps .item_step .icon_step .step_2_icon {
+      background-position: -5px -100px; }
+    .investors_steps .item_step .icon_step .step_3_icon {
+      background-position: -5px -172px; }
+    .investors_steps .item_step .icon_step span {
+      color: #a3a3a3;
+      font-size: 16px;
+      display: block;
+      line-height: 1.1;
+      text-transform: uppercase; }
+  .investors_steps .item_step .text_step {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 200px);
+    padding-left: 25px; }
+    .investors_steps .item_step .text_step .title_step {
+      font-family: "MyriadProBold";
+      font-size: 20px;
+      background-color: #36953a;
+      padding: 5px 30px;
+      text-transform: uppercase;
+      display: inline-block;
+      color: #fff; }
+    .investors_steps .item_step .text_step p {
+      color: #a3a3a3;
+      font-size: 14px;
+      margin-top: 20px;
+      line-height: 1.2; }
+
+.investors_steps {
+  position: relative; }
+  .investors_steps .container {
+    padding-top: 60px;
+    position: relative; }
+    .investors_steps .container .bg_steps {
+      position: absolute;
+      right: calc(100% - 102px);
+      top: 0;
+      bottom: -10px;
+      background-color: #3a4a59;
+      width: 100%;
+      border-radius: 0 0 5px 0; }
+
+/*END INVESTORS PAGE */
