@@ -44,19 +44,19 @@ var faqValues = [{
 }, {
     caption: 'Investment &accruals',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '2What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '2What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '2What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '2What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'How to make a deposit?',
+        caption: '2How to make a deposit?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How long will take the activation of deposit?',
@@ -77,16 +77,16 @@ var faqValues = [{
 }, {
     caption: 'Withdraw money',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '3What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '3What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '3What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '3What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How to make a deposit?',
@@ -110,19 +110,19 @@ var faqValues = [{
 }, {
     caption: 'Partnership program',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '4What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '4What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '4What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '4What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'How to make a deposit?',
+        caption: '4How to make a deposit?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How long will take the activation of deposit?',
@@ -143,16 +143,16 @@ var faqValues = [{
 }, {
     caption: 'Security account',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '5What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '5What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '5What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '5What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How to make a deposit?',
@@ -176,16 +176,16 @@ var faqValues = [{
 }, {
     caption: 'Legal aspect',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '6What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '6What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '6What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '6What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How to make a deposit?',
@@ -209,19 +209,19 @@ var faqValues = [{
 }, {
     caption: 'Account info',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '7What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '7What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '7What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '7What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'How to make a deposit?',
+        caption: '7How to make a deposit?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How long will take the activation of deposit?',
@@ -242,19 +242,19 @@ var faqValues = [{
 }, {
     caption: 'other Support',
     data: [{
-        caption: 'What investment offer company provides?',
+        caption: '8What investment offer company provides?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is minimum amount to invest?',
+        caption: '8What is minimum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What is maximum amount to invest?',
+        caption: '8What is maximum amount to invest?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'What payment methods can i use?',
+        caption: '8What payment methods can i use?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
-        caption: 'How to make a deposit?',
+        caption: '8How to make a deposit?',
         text: ['All referral rewards are charged automatically, as well as payments on them. Accordingly, the system automatically determines the currency in which you will be credited with your reward, and will be withdrawn to the same payment system which your referral used to make a deposit.', 'Please note that if your account does not contain billing details of the electronic payment system, wich your referral used to make deposit, then the system will not be able to pay out funds in your wallet because of physical absence of your payment details in the system database. Therefore, we encourage you to contact our support team to add a new account in your payment details, or directly check after registration all purses details preventively.']
     }, {
         caption: 'How long will take the activation of deposit?',
