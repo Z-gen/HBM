@@ -35,12 +35,14 @@
 		<div id="header_main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-5 col-sm-3">
 						<div class="header_logo">
-							<img src="img/logo.png" alt="">
+							<a href="">
+								<img src="img/logo.png" alt="">
+							</a>
 						</div>
 					</div>
-					<div class="col-md-7 paddingNull">
+					<div class="col-md-7 col-sm-9 hidden-xs paddingNull">
 						<div class="header_right">
 
 							<div class="header_contact">
@@ -91,7 +93,15 @@
 								</div>
 								<div class="btn_lang">
 									<span>YOUR LANGUAGE</span>
-									<button>English</button>
+									<div class="main_lang">English</div>
+									<div class="other_lang">
+										<ul>
+											<li>English</li>
+											<li>Russian</li>
+											<li>Germany</li>
+											<li>Espanol</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 
@@ -119,7 +129,7 @@
 
 		</div>
 
-		<div id="header_menu">
+		<div id="header_menu" class="hidden-xs">
 			<div class="container">
 				<div class="row">
 					<ul>
@@ -133,6 +143,62 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+
+		<button class="toggle_mnu">
+			<span class="sandwich">
+				<span class="sw-topper"></span>
+				<span class="sw-bottom"></span>
+				<span class="sw-footer"></span>
+			</span>
+		</button>
+
+		<div class="hide_mob_menu">
+			<ul>
+				<li><a href="">Homepage</a></li>
+				<li><a href="">Investors</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Partners</a></li>
+				<li><a href="">FAQ</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Contacts</a></li>
+			</ul>
+
+			<div class="header_lang">
+				<div class="img_lang">
+					<img src="img/rus.png" alt="">
+				</div>
+				<div class="btn_lang">
+					<span>YOUR LANGUAGE</span>
+					<div class="main_lang">English</div>
+					<div class="other_lang">
+						<ul>
+							<li>English</li>
+							<li>Russian</li>
+							<li>Germany</li>
+							<li>Espanol</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="header_login">
+				<div class="header_login_item header_user_acc">
+					<a href="">
+						<div class="img_log"></div>
+						<b>User Account</b>
+						<span>login to your account</span>
+					</a>
+				</div>
+				<div class="header_login_item header_create_acc">
+					<a href="">
+						<div class="img_log"></div>
+						<b>Create Account</b>
+						<span>Create new user account</span>
+					</a>
+				</div>
+			</div>
+
 		</div>
 
 	</header>
@@ -160,19 +226,19 @@
 		<div class="contact_form">
 			<div class="left_green_block"></div>
 			<div class="container">
-				<div class="col-md-6 paddingNull">
+				<div class="col-md-6 col-sm-6 paddingNull">
 					<div class="input_form_wrap">
 						<input placeholder="PointARTs" type="text">
 						<span>Your name</span>
 					</div>
 				</div>
-				<div class="col-md-6 paddingNull">
+				<div class="col-md-6 col-sm-6 paddingNull">
 					<div class="input_form_wrap">
 						<input placeholder="Dont change wallet" type="text">
 						<span>Subject</span>
 					</div>
 				</div>
-				<div class="col-md-12 paddingNull">
+				<div class="col-md-12 col-sm-12 paddingNull">
 					<div class="input_form_wrap">
 						<textarea placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
@@ -190,13 +256,21 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 		<div class="contact_partners">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-5 col-sm-12">
 						<div class="map_contact">
 							<img src="img/map_contact.png" alt="">
+							<div class="dots_company">
+								<div class="dot_item" id="first_company_dot"></div>
+								<div class="dot_item" id="second_company_dot"></div>
+								<div class="dot_item" id="third_company_dot"></div>
+								<div class="dot_item" id="fourth_company_dot"></div>
+								<div class="dot_item" id="fifth_company_dot"></div>
+								<div class="dot_item" id="sixth_company_dot"></div>
+							</div>
 						</div>
 					</div>
 					
-					<div class="col-md-7">
+					<div class="col-md-7 col-sm-12">
 						<div class="partners_world">
 							<div class="title">
 								<div class="pad"></div>
@@ -204,8 +278,8 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 							</div>
 							<div class="list_address">
-								<div class="col-md-6 paddingNull">
-									<div class="item_address">
+								<div class="col-md-6 col-sm-6 col-xs-6 paddingNull">
+									<div class="item_address" id="first_address">
 										<div class="main_address">
 											<div class="img_address"></div>
 											<span>Address: Kiyv, Kropivnickogo str. 4, en. 1</span>
@@ -218,7 +292,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 											</ul>
 										</div>
 									</div>
-									<div class="item_address">
+									<div class="item_address" id="second_address">
 										<div class="main_address">
 											<div class="img_address"></div>
 											<span>Address: Kiyv, Kropivnickogo str. 4, en. 1</span>
@@ -231,7 +305,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 											</ul>
 										</div>
 									</div>
-									<div class="item_address">
+									<div class="item_address" id="third_address">
 										<div class="main_address">
 											<div class="img_address"></div>
 											<span>Address: Kiyv, Kropivnickogo str. 4, en. 1</span>
@@ -245,8 +319,8 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 paddingNull">
-									<div class="item_address">
+								<div class="col-md-6 col-sm-6 col-xs-6 paddingNull">
+									<div class="item_address" id="fourth_address">
 										<div class="main_address">
 											<div class="img_address"></div>
 											<span>Address: Kiyv, Kropivnickogo str. 4, en. 1</span>
@@ -259,7 +333,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 											</ul>
 										</div>
 									</div>
-									<div class="item_address">
+									<div class="item_address" id="fifth_address">
 										<div class="main_address">
 											<div class="img_address"></div>
 											<span>Address: Kiyv, Kropivnickogo str. 4, en. 1</span>
@@ -272,7 +346,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 											</ul>
 										</div>
 									</div>
-									<div class="item_address">
+									<div class="item_address" id="sixth_address">
 										<div class="main_address">
 											<div class="img_address"></div>
 											<span>Address: Kiyv, Kropivnickogo str. 4, en. 1</span>
@@ -314,7 +388,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 				<div class="item_pay">
 					<img src="img/payment/payeer.png" alt="">
 				</div>
-				<button class="btn_pay">
+				<button id="up_scroll" class="btn_pay">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -372,7 +446,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 	<![endif]-->
 	
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
-	
+	<script src="js/slick.min.js"></script>
 	<script src="js/common.js"></script>
 	
 </body>

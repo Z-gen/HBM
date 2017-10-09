@@ -25,6 +25,12 @@ body textarea:required:valid
 
 /*MAIN*/
 
+a
+	color: #4f4f4f
+	text-decoration: none
+	&:hover
+		color: #4f4f4f
+
 ul 
 	padding: 0
 	list-style-type: none
@@ -36,7 +42,133 @@ ul
 .wrap_top_text p
 	margin: 0
 
+img
+	max-width: 100%
+
+.title_section
+	overflow: hidden
+
 /*MAIN*/
+
+/*TOGGLE MENU*/
+
+.toggle_mnu
+	width: 60px
+	display: none
+	height: 60px
+	position: fixed
+	z-index: 1000
+	outline: none
+	border: none
+	right: 20px
+	background-color: #202931
+	top: 20px
+	span
+		display: block
+
+
+$w: 28px
+$h: 3px
+
+.sandwich 
+	width: $w
+	height: $w
+	position: absolute
+	top: 8px
+	bottom: 0
+	left: 0
+	right: 0
+	margin: auto
+	z-index: 200
+
+.sw-topper
+	position: relative
+	top: 0
+	width: $w 
+	height: $h
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	display: block
+			
+	//transition-delay: 0.2s, 0s
+
+.sw-bottom
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 2.2
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	transition-delay: 0.2s, 0s
+.sw-footer
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 4.5
+	background: rgb(255, 255, 255)
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: all 0.5s
+	transition-delay: 0.1s
+.sandwich.active
+	.sw-topper
+		top: 9px
+		transform: rotate(-45deg)
+	.sw-bottom
+		top: 6px
+		transform: rotate(45deg)
+	.sw-footer
+		opacity: 0
+		top: 0
+		transform: rotate(180deg)
+
+/*TOGGLE MENU*/
+
+
+/*MOB MENU*/
+
+.hide_mob_menu
+	position: fixed
+	left: 0
+	top: -100%
+	right: 0
+	height: 100%
+	background-color: #fff
+	z-index: 100
+	opacity: 0
+	transition: all 0.5s ease
+
+.hide_mob_menu.visible_menu
+	opacity: 1
+	top: 0
+
+.hide_mob_menu
+	ul
+		margin: 60px auto 20px
+		display: block
+		padding: 0
+		text-align: center
+		li
+			text-transform: uppercase
+			margin-bottom: 5px
+			font-size: 16px
+	.header_lang
+		text-align: center
+	.header_login
+		position: relative
+		top: 0
+		text-align: center
+		margin-top: 50px
+
+
+
+
+/*MOB MENU*/
+
 
 /*HEADER*/
 
@@ -140,6 +272,8 @@ header#header
 
 .header_lang 
 	padding-top: 25px
+	position: relative
+	z-index: 10
 	.img_lang
 		width: 38px
 		@extend .inlineMid
@@ -148,13 +282,19 @@ header#header
 		@extend .inlineMid
 		text-transform: uppercase
 		position: relative
+		&:hover
+			.other_lang
+				opacity: 1
+				overflow: visible
+				height: auto
 		span
 			display: block
 			font-size: 10px
 			color: #9f9f9f
-		button
+		.main_lang
 			border: none
 			color: #fff
+			display: inline-block
 			text-transform: uppercase
 			padding: 2px 5px
 			background-color: $colorGreen
@@ -164,6 +304,27 @@ header#header
 			@extend .inlineMid, .bgimg
 			width: 20px
 			height: 20px
+		.other_lang
+			position: absolute
+			top: 100%
+			left: 0
+			right: 0
+			width: 100%
+			height: 0
+			opacity: 0
+			overflow: hidden
+			transition: all 0.5s ease
+			ul
+				li
+					color: #fff
+					text-transform: uppercase
+					padding: 2px 5px
+					background-color: $colorGreen
+					border-bottom: 1px solid #217925
+					cursor: pointer
+					&:hover
+						background-color: #217925
+
 
 
 .header_login 
@@ -203,12 +364,16 @@ header#header
 	.header_user_acc
 		.img_log
 			background-position: 2px -86px
+		&:hover
+			.img_log
+				background-position: 2px -136px
 	.header_create_acc
 		.img_log
 			background-position: 2px -43px
 		&:hover
 			.img_log
 				background-position: 2px 2px
+
 	
 
 #header_menu
@@ -257,6 +422,7 @@ header#header
 				margin: auto
 		.btn_pay
 			@extend .inlineMid
+			outline: none
 			background-color: #242e37
 			border: none
 			width: 60px
@@ -412,6 +578,8 @@ header#header
 			padding: 20px 35px
 			margin-top: 35px
 			box-shadow: 0 5px 31px rgba(0, 0, 0, 0.32)
+			&:hover
+				background-color: $colorRed
 
 .title_section
 	padding-left: 70px
@@ -444,6 +612,11 @@ body
 			.title_level.home_level
 				color: #3a4a59
 				margin-left: 0
+
+.investors_list
+	.investors_list_item.active_this
+		background-color: #eef3f7
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.22)
 
 .investors_list
 	.investors_list_item
@@ -492,8 +665,49 @@ body
 	.main_news_item 
 		margin-top: 0
 		margin-bottom: 0
+		padding: 0 15px
 		.title_container
 			background-color: $colorRed
 
+.news_home_slider
+	.slick-next
+		right: 0
+		top: -45px
+		&:before
+			background-image: url(../img/ellipsis_grey.png)
+			content: ""
+			width: 40px
+			display: block
+			height: 40px
+			opacity: 1
+			background-repeat: no-repeat
+			border: 1px solid #d6dadd
+			background-position: center
+			transform: rotate(-90deg)
+			background-size: 20px
+	.slick-prev
+		right: 50px
+		top: -45px
+		left: auto
+		&:before
+			background-image: url(../img/ellipsis_grey.png)
+			content: ""
+			width: 40px
+			display: block
+			height: 40px
+			opacity: 1
+			background-repeat: no-repeat
+			border: 1px solid #d6dadd
+			background-position: center
+			transform: rotate(90deg)
+			background-size: 20px
+
+
+
+.partner_levels_home
+	.partner_level_item
+		display: none
+	.partner_level_item.active_level
+		display: block
 
 /*HOME*/

@@ -21,12 +21,16 @@
 
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/investors.css">
 	<link rel="stylesheet" href="css/partners.css">
 	<link rel="stylesheet" href="css/news.css">
 	<link rel="stylesheet" href="css/rangeslider.css">
+
 	<link rel="stylesheet" href="css/media.css">
 
 </head>
@@ -38,12 +42,14 @@
 		<div id="header_main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-5 col-sm-3">
 						<div class="header_logo">
-							<img src="img/logo.png" alt="">
+							<a href="">
+								<img src="img/logo.png" alt="">
+							</a>
 						</div>
 					</div>
-					<div class="col-md-7 paddingNull">
+					<div class="col-md-7 col-sm-9 hidden-xs paddingNull">
 						<div class="header_right">
 
 							<div class="header_contact">
@@ -94,7 +100,15 @@
 								</div>
 								<div class="btn_lang">
 									<span>YOUR LANGUAGE</span>
-									<button>English</button>
+									<div class="main_lang">English</div>
+									<div class="other_lang">
+										<ul>
+											<li>English</li>
+											<li>Russian</li>
+											<li>Germany</li>
+											<li>Espanol</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 
@@ -122,7 +136,7 @@
 
 		</div>
 
-		<div id="header_menu">
+		<div id="header_menu" class="hidden-xs">
 			<div class="container">
 				<div class="row">
 					<ul>
@@ -136,6 +150,62 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+
+		<button class="toggle_mnu">
+			<span class="sandwich">
+				<span class="sw-topper"></span>
+				<span class="sw-bottom"></span>
+				<span class="sw-footer"></span>
+			</span>
+		</button>
+
+		<div class="hide_mob_menu">
+			<ul>
+				<li><a href="">Homepage</a></li>
+				<li><a href="">Investors</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Partners</a></li>
+				<li><a href="">FAQ</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Contacts</a></li>
+			</ul>
+
+			<div class="header_lang">
+				<div class="img_lang">
+					<img src="img/rus.png" alt="">
+				</div>
+				<div class="btn_lang">
+					<span>YOUR LANGUAGE</span>
+					<div class="main_lang">English</div>
+					<div class="other_lang">
+						<ul>
+							<li>English</li>
+							<li>Russian</li>
+							<li>Germany</li>
+							<li>Espanol</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="header_login">
+				<div class="header_login_item header_user_acc">
+					<a href="">
+						<div class="img_log"></div>
+						<b>User Account</b>
+						<span>login to your account</span>
+					</a>
+				</div>
+				<div class="header_login_item header_create_acc">
+					<a href="">
+						<div class="img_log"></div>
+						<b>Create Account</b>
+						<span>Create new user account</span>
+					</a>
+				</div>
+			</div>
+
 		</div>
 
 	</header>
@@ -172,7 +242,7 @@
 			<div class="investors_top_block">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6"">
 							<div class="investors_top_item">
 								<div class="label_invest">
 									Term: 
@@ -182,7 +252,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="investors_top_item">
 								<div class="label_invest">
 									Accruals:
@@ -192,7 +262,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="investors_top_item">
 								<div class="label_invest">
 									MinimumDeposit:
@@ -202,7 +272,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="investors_top_item">
 								<div class="label_invest">
 									Minimum withdraw:
@@ -212,7 +282,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="investors_top_item">
 								<div class="label_invest">
 									Premature closure of deposit:	
@@ -222,7 +292,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="investors_top_item">
 								<div class="label_invest">
 									 Agreement:
@@ -232,7 +302,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-12">
+						<div class="col-md-12 col-sm-12">
 							<div class="investors_top_under">
 								<p>The amount of income and its monetary value is based on many factors. We have no information about the success of your business in the future, as well as relating to you personally, and do not guarantee the consequent likelihood of any large, small, or in general any cash. We do not guarantee that you receive a similar amount. Considering the expected profits guaranteed, you assume the risk of its non-receipt.</p>
 							</div>
@@ -268,7 +338,7 @@
 							<div class="investors_weekendDay">
 								<div class="investors_weekendDay_top">
 									<div class="bold_block">PERCENTAGE  0.3% tо 1%</div>
-									<span>Bussies days</span>
+									<span>WEEKEND DAYS</span>
 								</div>
 								<div class="investors_days">
 									<ul>
@@ -295,7 +365,7 @@
 
 										<div class="investors_value_percentage">
 											<div class="row">
-												<div class="col-md-4">
+												<div class="col-md-4 col-sm-4 col-xs-4">
 													<div class="item_percentage">
 														<div class="value_percent">
 															<div class="icon_per green_img"></div><span>4.095</span>
@@ -304,7 +374,7 @@
 													</div>
 												</div>
 
-												<div class="col-md-4">
+												<div class="col-md-4 col-sm-4  col-xs-4">
 													<div class="item_percentage">
 														<div class="value_percent">
 															<div class="icon_per green_img"></div><span>2.742</span>
@@ -313,7 +383,7 @@
 													</div>
 												</div>
 
-												<div class="col-md-4">
+												<div class="col-md-4 col-sm-4  col-xs-4">
 													<div class="item_percentage">
 														<div class="value_percent">
 															<div class="icon_per red_img"></div><span>8.057</span>
@@ -321,7 +391,7 @@
 														</div>
 													</div>
 												</div>
-
+												
 											</div>
 										</div>
 
@@ -335,7 +405,7 @@
 													<input type="range" value="400" min="10" max="600" step="5" data-rangeslider>
 												</div>
 												<div class="btn_range">
-													<output></output>
+													<input type="text" id="output">
 													<button>Amount Invest</button>
 												</div>
 										</div>
@@ -343,6 +413,11 @@
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="btn_hide_calc">
+						<span></span>
+						<span></span>
+						<span></span>
 					</div>
 				</div>
 
@@ -407,27 +482,27 @@
 
 			<div class="investors_list">
 				<div class="container">
-					<div class="investors_list_item">
+					<div class="investors_list_item" id="user_level">
 						<div class="icon_inv user_rank_ic"></div>
 						<div class="rank_inv">User Level</div>
 						<div class="desct_inv">Investing more - $100</div>
 					</div>
-					<div class="investors_list_item">
+					<div class="investors_list_item active_this" id="investor_level">
 						<div class="icon_inv inv_rank_ic"></div>
 						<div class="rank_inv">Investor  Level</div>
 						<div class="desct_inv">Investing more - $1000</div>
 					</div>
-					<div class="investors_list_item">
+					<div class="investors_list_item" id="lider_level">
 						<div class="icon_inv lider_rank_ic"></div>
 						<div class="rank_inv">Lider Level</div>
 						<div class="desct_inv">Investing more - $30 000</div>
 					</div>
-					<div class="investors_list_item">
+					<div class="investors_list_item" id="top_lider_level">
 						<div class="icon_inv toplid_rank_ic"></div>
-						<div class="rank_inv">User Level</div>
+						<div class="rank_inv">Top Lider Level</div>
 						<div class="desct_inv">Top Lider more - $100 000</div>
 					</div>
-					<div class="investors_list_item">
+					<div class="investors_list_item" id="primer_level">
 						<div class="icon_inv primer_rank_ic"></div>
 						<div class="rank_inv">Primer  Level</div>
 						<div class="desct_inv">Investing more - $100 000 000</div>
@@ -435,59 +510,259 @@
 				</div>
 			</div>
 
-			<div class="partner_levels">
+			<div class="partner_levels partner_levels_home">
 
-			<div class="partner_level_item">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-9">
+				<div class="partner_level_item" id="user_level_item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-sm-9">
 
-							<div class="partner_level_item_main">
+								<div class="partner_level_item_main">
 
-								<div class="level_item_title">
-									<div class="title_level home_level">
-										Investor Level
+									<div class="level_item_title">
+										<div class="title_level home_level">
+											User Level
+										</div>
 									</div>
-								</div>
 
-								<div class="level_item_description">
-									<p>"Investor" provides an opportunity for additional earnings for partners who attracted to the Investment Fund a total cost of $ 1000, taking into account personal contribution. </p>
-									<p>After that, you automatically have the opportunity to use the Second Stage of Partnership Achievements "Investor". In accordance with the Fund's Partner Program, the Investor Stage provides 6% of the nominal value of the deposit made by your partner of the 1st level of your partner structure, 2% of the value of the deposit made by your partner of the 2nd level of your partner structure and 1% of the the value of the deposit made by your partner of the 3rd level of your partner structure.</p>
-									<p>Thus, using the "Investor" Stage, in total you can earn up to 9% of the deposits of your partner structure at 3 levels in depth.</p>
-									
-								</div>
+									<div class="level_item_description">
+										<p>"Investor" provides an opportunity for additional earnings for partners who attracted to the Investment Fund a total cost of $ 1000, taking into account personal contribution. </p>
+										<p>After that, you automatically have the opportunity to use the Second Stage of Partnership Achievements "Investor". In accordance with the Fund's Partner Program, the Investor Stage provides 6% of the nominal value of the deposit made by your partner of the 1st level of your partner structure, 2% of the value of the deposit made by your partner of the 2nd level of your partner structure and 1% of the the value of the deposit made by your partner of the 3rd level of your partner structure.</p>
+										<p>Thus, using the "Investor" Stage, in total you can earn up to 9% of the deposits of your partner structure at 3 levels in depth.</p>
+										
+									</div>
 
-								<div class="level_item_listlevel">
-									<ul>
-										<li>
-											<div class="color_block first_level"></div>
-											<span>1 level</span>
-											<div class="precent_block">6%</div>
-										</li>
-										<li>
-											<div class="color_block second_level"></div>
-											<span>2 level</span>
-											<div class="precent_block">2%</div>
-										</li>
-										<li>
-											<div class="color_block third_block"></div>
-											<span>3 level</span>
-											<div class="precent_block">1%</div>
-										</li>
-									</ul>
-								</div>
+									<div class="level_item_listlevel">
+										<ul>
+											<li>
+												<div class="color_block first_level"></div>
+												<span>1 level</span>
+												<div class="precent_block">6%</div>
+											</li>
+											<li>
+												<div class="color_block second_level"></div>
+												<span>2 level</span>
+												<div class="precent_block">2%</div>
+											</li>
+											<li>
+												<div class="color_block third_block"></div>
+												<span>3 level</span>
+												<div class="precent_block">1%</div>
+											</li>
+										</ul>
+									</div>
 
+								</div>
 							</div>
-
-						</div>
-						<div class="col-md-3">
-							<div class="level_item_diagram">
-								<img src="img/curcle_diagram.png" alt="">
+							<div class="col-md-3 col-sm-3">
+								<div class="level_item_diagram">
+									<img src="img/curcle_diagram.png" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			
+				<div class="partner_level_item active_level" id="investor_level_item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-sm-9">
+
+								<div class="partner_level_item_main">
+
+									<div class="level_item_title">
+										<div class="title_level home_level">
+											Investor Level
+										</div>
+									</div>
+
+									<div class="level_item_description">
+										<p>"Investor" provides an opportunity for additional earnings for partners who attracted to the Investment Fund a total cost of $ 1000, taking into account personal contribution. </p>
+										<p>After that, you automatically have the opportunity to use the Second Stage of Partnership Achievements "Investor". In accordance with the Fund's Partner Program, the Investor Stage provides 6% of the nominal value of the deposit made by your partner of the 1st level of your partner structure, 2% of the value of the deposit made by your partner of the 2nd level of your partner structure and 1% of the the value of the deposit made by your partner of the 3rd level of your partner structure.</p>
+										<p>Thus, using the "Investor" Stage, in total you can earn up to 9% of the deposits of your partner structure at 3 levels in depth.</p>
+										
+									</div>
+
+									<div class="level_item_listlevel">
+										<ul>
+											<li>
+												<div class="color_block first_level"></div>
+												<span>1 level</span>
+												<div class="precent_block">6%</div>
+											</li>
+											<li>
+												<div class="color_block second_level"></div>
+												<span>2 level</span>
+												<div class="precent_block">2%</div>
+											</li>
+											<li>
+												<div class="color_block third_block"></div>
+												<span>3 level</span>
+												<div class="precent_block">1%</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="level_item_diagram">
+									<img src="img/curcle_diagram.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="partner_level_item" id="lider_level_item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-sm-9">
+
+								<div class="partner_level_item_main">
+
+									<div class="level_item_title">
+										<div class="title_level home_level">
+											Lider Level
+										</div>
+									</div>
+
+									<div class="level_item_description">
+										<p>"Investor" provides an opportunity for additional earnings for partners who attracted to the Investment Fund a total cost of $ 1000, taking into account personal contribution. </p>
+										<p>After that, you automatically have the opportunity to use the Second Stage of Partnership Achievements "Investor". In accordance with the Fund's Partner Program, the Investor Stage provides 6% of the nominal value of the deposit made by your partner of the 1st level of your partner structure, 2% of the value of the deposit made by your partner of the 2nd level of your partner structure and 1% of the the value of the deposit made by your partner of the 3rd level of your partner structure.</p>
+										<p>Thus, using the "Investor" Stage, in total you can earn up to 9% of the deposits of your partner structure at 3 levels in depth.</p>
+										
+									</div>
+
+									<div class="level_item_listlevel">
+										<ul>
+											<li>
+												<div class="color_block first_level"></div>
+												<span>1 level</span>
+												<div class="precent_block">6%</div>
+											</li>
+											<li>
+												<div class="color_block second_level"></div>
+												<span>2 level</span>
+												<div class="precent_block">2%</div>
+											</li>
+											<li>
+												<div class="color_block third_block"></div>
+												<span>3 level</span>
+												<div class="precent_block">1%</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="level_item_diagram">
+									<img src="img/curcle_diagram.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="partner_level_item" id="toplider_level_item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-sm-9">
+
+								<div class="partner_level_item_main">
+
+									<div class="level_item_title">
+										<div class="title_level home_level">
+											Top Lider Level
+										</div>
+									</div>
+
+									<div class="level_item_description">
+										<p>"Investor" provides an opportunity for additional earnings for partners who attracted to the Investment Fund a total cost of $ 1000, taking into account personal contribution. </p>
+										<p>After that, you automatically have the opportunity to use the Second Stage of Partnership Achievements "Investor". In accordance with the Fund's Partner Program, the Investor Stage provides 6% of the nominal value of the deposit made by your partner of the 1st level of your partner structure, 2% of the value of the deposit made by your partner of the 2nd level of your partner structure and 1% of the the value of the deposit made by your partner of the 3rd level of your partner structure.</p>
+										<p>Thus, using the "Investor" Stage, in total you can earn up to 9% of the deposits of your partner structure at 3 levels in depth.</p>
+										
+									</div>
+
+									<div class="level_item_listlevel">
+										<ul>
+											<li>
+												<div class="color_block first_level"></div>
+												<span>1 level</span>
+												<div class="precent_block">6%</div>
+											</li>
+											<li>
+												<div class="color_block second_level"></div>
+												<span>2 level</span>
+												<div class="precent_block">2%</div>
+											</li>
+											<li>
+												<div class="color_block third_block"></div>
+												<span>3 level</span>
+												<div class="precent_block">1%</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="level_item_diagram">
+									<img src="img/curcle_diagram.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="partner_level_item"  id="primer_level_item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-sm-9">
+
+								<div class="partner_level_item_main">
+
+									<div class="level_item_title">
+										<div class="title_level home_level">
+											Primer Level
+										</div>
+									</div>
+
+									<div class="level_item_description">
+										<p>"Investor" provides an opportunity for additional earnings for partners who attracted to the Investment Fund a total cost of $ 1000, taking into account personal contribution. </p>
+										<p>After that, you automatically have the opportunity to use the Second Stage of Partnership Achievements "Investor". In accordance with the Fund's Partner Program, the Investor Stage provides 6% of the nominal value of the deposit made by your partner of the 1st level of your partner structure, 2% of the value of the deposit made by your partner of the 2nd level of your partner structure and 1% of the the value of the deposit made by your partner of the 3rd level of your partner structure.</p>
+										<p>Thus, using the "Investor" Stage, in total you can earn up to 9% of the deposits of your partner structure at 3 levels in depth.</p>
+										
+									</div>
+
+									<div class="level_item_listlevel">
+										<ul>
+											<li>
+												<div class="color_block first_level"></div>
+												<span>1 level</span>
+												<div class="precent_block">6%</div>
+											</li>
+											<li>
+												<div class="color_block second_level"></div>
+												<span>2 level</span>
+												<div class="precent_block">2%</div>
+											</li>
+											<li>
+												<div class="color_block third_block"></div>
+												<span>3 level</span>
+												<div class="precent_block">1%</div>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="level_item_diagram">
+									<img src="img/curcle_diagram.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 		</div>
 		
 	</section>
@@ -502,28 +777,81 @@
 
 		<div class="home_news">
 			<div class="container">
-				<div class="main_news_item">
-					<a href="">
-						<div class="row">
-							<div class="col-md-5 paddingNull">
-								<div class="img_container">
-									<img src="img/square.png" alt="">
-									<div class="date_news">
-										03/15/2017 19:19
-									</div> 
+
+				<div class="news_home_slider">
+
+					<div class="main_news_item">
+						<a href="">
+							<div class="row">
+								<div class="col-md-5 col-sm-5 paddingNull">
+									<div class="img_container">
+										<img src="img/square.png" alt="">
+										<div class="date_news">
+											03/15/2017 19:19
+										</div> 
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-7 paddingNull">
+									<div class="text_container">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+								<div class="title_container ">
+									Results of the conference of Edelweiss 5 in Kazakhstan
 								</div>
 							</div>
-							<div class="col-md-7 paddingNull">
-								<div class="text_container">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</a>
+					</div>
+
+					<div class="main_news_item">
+						<a href="">
+							<div class="row">
+								<div class="col-md-5 col-sm-5 paddingNull">
+									<div class="img_container">
+										<img src="img/square.png" alt="">
+										<div class="date_news">
+											03/15/2017 19:19
+										</div> 
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-7 paddingNull">
+									<div class="text_container">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+								<div class="title_container ">
+									Results of the conference of Edelweiss 5 in Kazakhstan
 								</div>
 							</div>
-							<div class="title_container ">
-								Results of the conference of Edelweiss 5 in Kazakhstan
+						</a>
+					</div>
+
+					<div class="main_news_item">
+						<a href="">
+							<div class="row">
+								<div class="col-md-5 col-sm-5 paddingNull">
+									<div class="img_container">
+										<img src="img/square.png" alt="">
+										<div class="date_news">
+											03/15/2017 19:19
+										</div> 
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-7 paddingNull">
+									<div class="text_container">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									</div>
+								</div>
+								<div class="title_container ">
+									Results of the conference of Edelweiss 5 in Kazakhstan
+								</div>
 							</div>
-						</div>
-					</a>
+						</a>
+					</div>
+
 				</div>
 				
 			</div>
@@ -552,7 +880,7 @@
 				<div class="item_pay">
 					<img src="img/payment/payeer.png" alt="">
 				</div>
-				<button class="btn_pay">
+				<button id="up_scroll" class="btn_pay">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -615,7 +943,9 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="js/rangeslider.min.js"></script>
 	<script src="js/graphs.js"></script>	
+	<script src="js/slick.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/range.js"></script>
 
 	
 </body>
