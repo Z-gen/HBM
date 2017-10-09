@@ -1,12 +1,156 @@
 /*==========  Desktop First Method  ==========*/
 
+@media only screen and (max-width : 1600px) {
+
+	.contact_form .left_green_block,
+	.contact_form .right_green_block {
+		width: 20%;
+	}
+
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.header_contact li {
+		font-size: 12px;
+		margin-right: -6px;
+	}
+	.header_login .header_login_item {
+		width: 140px;
+		padding: 15px 0;
+	}
+	.investors_data .invset_data_item {
+		padding-right: 3%;
+	}
+	.investors_list .investors_list_item {
+		padding: 15px 10px;
+	}
+	.about_us_page .hex_flower .image_wrap {
+    margin-left: 30px;
+    padding-right: 20px;
+	}
+	.about_us_page .section.about_us_bottom .info > div {
+		font-size: 15px;
+	}
 
+	.contact_form .left_green_block,
+	.contact_form .right_green_block {
+		width: 15%;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.header_contact li .header_contact_0 {
+		padding: 20px 3px;
+	}
+	.header_login {
+		top: 50%;
+	}
+	.header_login .header_login_item {
+		width: 115px;
+	}
+	.header_login .header_login_item a b {
+		font-size: 12px;
+	}
+	.header_login .header_login_item a span {
+		font-size: 8px;
+	}
+	.investors_top_block .investors_top_item {
+		font-size: 11px ;
+	}
+	.investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top .bold_block,
+	.investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top .bold_block {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	.investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top span,
+	.investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top span {
+		margin-left: 25px;
+	}
+
+	.title_section h2 {
+		font-size: 25px;
+	}
+	.title_section h2:after {
+		top: 15px;
+	}
+	.invsetors_chart .investors_value .investors_value_percentage {
+		top: 20px;
+		padding-top: 20px;
+	}
+	.investors_data {
+		top: 0;
+		padding-bottom: 30px;
+	}
+	.investors_data .title_data {
+		padding-left: 0;
+		margin-bottom: 15px;
+	}
+	.investors_list .investors_list_item .desct_inv {
+		font-size: 9px;
+	}
+	.investors_list .investors_list_item {
+    padding: 15px 5px;
+	}
+	.investors_list .investors_list_item .rank_inv {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+	.level_item_diagram {
+		padding-top: 40%;
+	}
+	.title_section p {
+		padding-right: 150px;
+	}
+
+	.top_news_item {
+		margin-bottom: 20px;
+	}
+	.news_page .main_news_item .title_container {
+		bottom: -5px;
+		right: 0%;
+	}
+
+	.partner_levels .partner_level_item .level_item_condition .block_cond {
+		padding-right: 15px;
+		font-size: 12px;
+	}
+	.partner_levels .partner_level_item .level_item_condition .block_cond span {
+		font-size: 18px;
+	}
+
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem {
+		padding: 0 15px;
+	}
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem div {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.about_us_page .image_wrap_top {
+		max-width: 50%;
+	}
+	.about_us_page .hex_flower .image_wrap {
+		margin-top: 50px;
+	}
+	.about_us_page .hex_paragraphs {
+		padding-top: 125px;
+	}
+
+	.about_us_page .section.about_us_bottom {
+		height: auto;
+	}
+
+	.about_us_bottom .info {
+		padding-bottom: 40px;
+	}
+	.about_us_page .section.about_us_bottom .certificate {
+		padding-top: 10%;
+	}
+
+
+
 
 }
 
@@ -35,15 +179,309 @@
 		animation: none !important;
 	}
 
+	#header_main {
+		padding-bottom: 0;
+	}
+	.header_logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+
+	.investors_top_block .col-md-6 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.investors_top_block .col-md-6:nth-child(2n) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.investors_statistics .investors_stats_btn .investors_weekendDay .investors_days ul li,
+	.investors_statistics .investors_stats_btn .investors_bussinesDay .investors_days ul li {
+		padding: 15px 10px;
+		font-size: 11px;
+	}
+	.investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top span,
+	.investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top span {
+		font-size: 11px;
+	}
+	.investors_statistics .investors_stats_btn .investors_weekendDay .investors_weekendDay_top .bold_block, .investors_statistics .investors_stats_btn .investors_bussinesDay .investors_bussinesDay_top .bold_block {
+    padding: 7px 10px;
+    font-size: 12px;
+	}
+	.invsetors_chart .pl-null {
+		margin-left: 0;
+	}
+	.invsetors_chart .investors_value .investors_value_percentage .item_percentage .title_perc {
+		margin-top: 10px;
+	}
+	.investors_data .invset_data_item {
+    font-size: 16px;
+	}
+	.investors_data .invset_data_item .data_value {
+    margin-top: 0px;
+	}
+	.level_item_diagram {
+    padding-top: 20px;
+	}
+	.level_item_diagram img {
+		display: block;
+		margin: auto;
+	}
+	.news_home_slider .slick-next {
+		right: 10px;
+	}
+	.news_home_slider .slick-prev {
+		right: 60px;
+	}
+	.main_news_item .title_container,
+	.top_news_item .title_container {
+		display: inline-block;
+		position: relative;
+		top: 0;
+		left: 0;
+		max-width: 100%;
+	}
+	.footer_page .footer_payment .item_pay {
+		width: 21%;
+	}
+	.toggle_mnu {
+		display: block;
+	}
+
+	.main_news_item,
+	.top_news_item {
+		padding: 0 15px;
+	}
+	.news_page .top_news_item {
+		display: none;
+	}
+
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem div {
+		font-size: 12px;
+	}
+
+	.about_us_page .hex_flower .image_wrap {
+		display: none;
+	}
+	.about_us_page .hex_paragraphs {
+		padding: 40px 15px;
+	}
+
+	.about_us_page .hex_paragraphs:before {
+		display: none;
+	}
+	.about_us_page .section .end_of_section {
+		margin-bottom: 50px;
+	}
+
+	.about_us_page .section.about_us_bottom .certificate img {
+		display: block;
+		margin: auto;
+	}
+	.about_us_page .paragraphs {
+		padding: 0 15px;
+	}
+
+	.contact_form .col-md-6 {
+		margin-bottom: 15px;
+	}
+
+	.contact_form .col-md-6:first-child {
+		padding-right: 0;
+	}
+
+	.contact_form .left_green_block, .contact_form .right_green_block {
+    width: 100%;
+	}
+	.contact_form .input_form_wrap textarea {
+		max-height: 150px;
+	}
+	.contact_partners .partners_world .list_address .item_address span {
+		font-size: 12px;
+	}
+
+
+
+}
+
+@media only screen and (max-width : 610px) {
+	.investors_statistics .investors_stats_btn .investors_weekendDay,
+	.investors_statistics .investors_stats_btn .investors_bussinesDay {
+		width: 100%;
+	}
+	.investors_data .invset_data_item {
+		width: 49%;
+		padding-right: 0;
+	}
+	.investors_list .investors_list_item {
+		width: 30%;
+	}
+
+	.investors_steps .container {
+		padding-top: 30px;
+	}
+	.investors_steps .container .bg_steps {
+		display: none;
+	}
+	.investors_steps .item_step .icon_step {
+		display: block;
+		margin: 10px auto;
+	}
+	.investors_steps .item_step .text_step {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.partner_levels .partner_level_item .level_item_condition .third_block_cond,
+	.partner_levels .partner_level_item .level_item_condition .second_block_cond {
+		background-image: none;
+		padding-left: 20px;
+	}
+
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem {
+    padding: 0 20px;
+    width: 25%;
+    max-width: 25%;
+	}
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem div {
+    font-size: 16px;
+	}
+
+	.about_us_page .image_wrap_top {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0 15px;
+	}
+
+	.contact_partners .partners_world .list_address .item_address .img_address {
+		width: 30px;
+		height: 30px;
+	}
+
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.header_logo {
+		max-width: 70%;
+	}
+	.investors_top_block .investors_top_item {
+		padding: 15px 10px;
+	}
+	.footer_page .footer_payment {
+		display: none;
+	}
+	.title_section p {
+    padding-right: 0px;
+	}
+	.invsetors_chart .investors_value .investors_value_percentage .item_percentage span {
+    font-size: 25px;
+	}
+	.invsetors_chart .investors_value .investors_value_percentage .item_percentage .title_perc {
+    margin-top: 5px;
+	}
+	.partner_levels .partner_level_item .level_item_listlevel ul li {
+    margin-right: 0;
+    margin-top: 10px;
+    width: 49%;
+	}
+	.main_news_item .text_container {
+		padding-left: 0;
+	}
+	.footer_page {
+		padding-top: 40px;
+	}
+	.footer_page .footer_menu .footer_menu_item {
+		text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.footer_page .footer_menu .footer_menu_item ul {
+    margin-top: 0px;
+    margin-right: 0;
+	}
+	.main_news_item .title_container {
+		font-size: 14px;
+	}
+	.invsetors_chart .investors_value .investors_value_percentage .item_percentage .icon_per {
+		display: none;
+	}
+	#page_title .bg_wrap .container .row .col-md-10 {
+		height: auto;
+		padding-bottom: 15px;
+		padding-left: 15px;
+	}
+	#page_title .bg_wrap .container .row .col-md-10 h1 {
+		font-size: 25px;
+		margin-top: 15px;
+	}
+	#page_title .bg_wrap .container .row .col-md-10 h1:before {
+		display: none;
+	}
+	.invsetors_chart .pl-null {
+		padding-right: 0;
+	}
+
+	.partner_levels .partner_level_item .level_item_condition .block_cond span {
+    font-size: 14px;
+	}
+	.partner_levels .partner_level_item .level_item_condition .block_cond {
+		padding: 15px 10px;
+		height: 60px;
+	}
+
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem div {
+    font-size: 14px;
+	}
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem {
+		padding: 0 15px;
+	}
+
+	.about_us_page .section.about_us_bottom .info .address {
+		margin-right: 0;
+	}
+
+	.contact_partners .partners_world .list_address .col-xs-6 {
+		width: 100%;
+	}
+
+	.contact_partners .map_contact {
+		display: none;
+	}
+
+
 
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 380px) {
+	.partner_levels .partner_level_item .level_item_condition .block_cond {
+		display: block;
+	}
+	.partner_levels .partner_level_item .level_item_condition .first_block_cond {
+		text-align: left;
+	}
+	.faq_page .reactTabWidget .react_TabWidget .tabs .react_TabItem div {
+    font-size: 12px;
+	}
+	.faq_page .reactTabWidget .react_TabWidget ul li div.opened {
+		max-height: 100%;
+	}
+
+	.about_us_page .section.about_us_bottom .info > div:before{
+		margin-right: 10px;
+	}
+	.about_us_page .section.about_us_bottom .info > div:before {
+		width: 60px;
+		height: 60px;
+	}
 
 }
 

@@ -150,10 +150,9 @@
 
 .invsetors_chart {
   background-color: #202931;
-  background-image: url(../img/bg_range.png);
+  background-image: url(../img/bg_range2.png);
   background-size: 1920px;
   background-repeat: no-repeat;
-  padding-top: 45px;
   background-position: top center; }
   .invsetors_chart .pl-null {
     padding-left: 0;
@@ -221,21 +220,28 @@
     .invsetors_chart .investors_value .investors_calculator .btn_range {
       position: relative;
       margin-top: 25px; }
-      .invsetors_chart .investors_value .investors_calculator .btn_range output {
+      .invsetors_chart .investors_value .investors_calculator .btn_range .output_wrap {
         position: absolute;
         left: 20px;
-        top: 10px;
-        color: #fff;
-        font-size: 16px; }
-        .invsetors_chart .investors_value .investors_calculator .btn_range output:after {
-          position: relative;
-          content: "USD";
-          padding-left: 5px; }
+        top: 10px; }
+        .invsetors_chart .investors_value .investors_calculator .btn_range .output_wrap #output {
+          outline: none;
+          color: #fff;
+          background-color: transparent;
+          border: none;
+          display: inline-block;
+          width: auto;
+          font-size: 16px;
+          width: 30px; }
+        .invsetors_chart .investors_value .investors_calculator .btn_range .output_wrap span {
+          color: #fff;
+          font-size: 16px; }
       .invsetors_chart .investors_value .investors_calculator .btn_range button {
         background-color: #3a4a59;
         border: none;
         border-radius: 4px;
         color: #fff;
+        outline: none;
         font-size: 12px;
         width: 100%;
         padding-top: 5px;
@@ -246,11 +252,42 @@
         border-bottom: 4px solid #344250; }
 
 .chart_calc_wrap {
-  padding-bottom: 35px; }
+  padding-bottom: 35px;
+  padding-top: 45px;
+  position: relative; }
+  .chart_calc_wrap .btn_hide_calc {
+    position: absolute;
+    left: calc(50% - 40px);
+    bottom: -15px;
+    background-color: #242e37;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px #14181b; }
+    .chart_calc_wrap .btn_hide_calc span {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background-color: #fff;
+      border-radius: 50%; }
+      .chart_calc_wrap .btn_hide_calc span:first-child {
+        left: 18px;
+        top: 15px; }
+      .chart_calc_wrap .btn_hide_calc span:nth-child(2) {
+        left: 14px;
+        top: 21px; }
+      .chart_calc_wrap .btn_hide_calc span:nth-child(3) {
+        right: 14px;
+        top: 21px; }
+
+.investors_value.hide_calc {
+  opacity: 0; }
 
 .investors_data {
   position: relative;
-  top: 10px; }
+  top: 10px;
+  margin-top: 20px; }
   .investors_data .title_data {
     font-size: 20px;
     color: #fff;
